@@ -1,0 +1,209 @@
+body {
+  text-align: center;
+}
+
+nav {
+  font-size: 17px;
+  text-align: left;
+}
+
+.navbar-brand {
+  width: 23%;
+}
+
+.logo-img {
+  height: 40px;
+}
+
+.search-bar-wrapper {
+  width: 63%;
+}
+
+.search-bar {
+  border-radius: 2px 0 0 2px;
+  border-style: none;
+  font-size: 17px;
+  height: 35px;
+  margin-left: 14%;
+  width: 65%;
+}
+
+.search-button {
+  border-radius: 0 2px 2px 0;
+  height: 35px;
+}
+
+.flag-img {
+  height: 25px;
+}
+
+.dropdown-item {
+  color: white;
+}
+
+/* Title Section */
+
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(15, 15, 15, 0.2),
+    0 6px 20px 0 rgba(15, 15, 15, 0.19);
+}
+
+#title {
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+}
+
+#title .row {
+  height: 75vh;
+  background-image: url("../images/chart.png");
+  background-size: cover;
+}
+
+.section-wrapper {
+  padding: 1rem 7rem;
+}
+
+/* .rounded-border {
+  border-radius: 7px;
+  border: 1px solid rgb(231, 231, 231);
+} */
+
+.title-text {
+  padding: 2rem 5rem;
+  text-align: left;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+@media (max-width: 1100px) {
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  #title .row {
+    height: 100vh;
+  }
+
+  .title-text {
+    padding: 2.8rem;
+    text-align: left;
+  }
+
+  .section-wrapper {
+    padding: 0 2rem;
+  }
+}
+
+.price-chart-img {
+  width: 84%;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.signup-form {
+  color: white;
+  border-radius: 7px;
+  padding: 2rem;
+  margin-top: 3rem;
+}
+
+.form-control {
+  margin: 2rem auto;
+}
+
+.btn-amazon {
+  background: rgb(247, 222, 161);
+  background: linear-gradient(
+    180deg,
+    rgba(247, 222, 161, 1) 0%,
+    rgba(241, 197, 86, 1) 100%
+  );
+}
+
+/* Methods Section */
+
+.methods-wrapper {
+  margin-bottom: 10rem;
+  padding: 7rem 3rem;
+}
+
+.section-heading {
+  margin-bottom: 7rem;
+}
+
+.method-title {
+  font-size: 1.3rem;
+}
+
+.method-card {
+  height: 350px;
+  margin-bottom: 3rem;
+}
+
+.card-text {
+  margin-top: 2rem;
+}
+
+.white {
+  color: white;
+}
+
+/* Deals Section */
+
+.card-img {
+  height: 300px;
+  width: 300px;
+  border: 4px solid white;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+.item {
+  margin-bottom: 3rem;
+}
+
+.item-title {
+  font-size: 1.2rem;
+}
+
+.item-text {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  text-decoration: none;
+}
+
+.original-price {
+  margin: 0;
+  text-align: left;
+  text-decoration: line-through;
+}
+
+.current-price {
+  font-size: 2rem;
+  margin: 0;
+  text-align: left;
+}
+
+.percent-off {
+  background-color: #28a745;
+  color: white;
+  font-size: 1.5rem;
+  padding: 0 5px;
+  position: absolute;
+  bottom: 4px;
+  left: 0px;
+}
+
+/* Footer Section */
+
+footer {
+  color: white;
+  margin-top: 12rem;
+  padding: 1rem;
+}
